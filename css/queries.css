@@ -12,10 +12,7 @@
     }
 
     .opening {
-        position: relative;
-        margin-top: var(--fn-h6);
-        margin-bottom: 0;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1.35fr 1.65fr;
     }
 
     .column-text {
@@ -24,14 +21,6 @@
 
     .heading {
         font-size: var(--fn-h2);
-    }
-
-    .opening .image {
-        position: absolute;
-        right: 0;
-        width: 60%;
-        opacity: 0.2 !important;
-        z-index: -10;
     }
 
     .section-overview {
@@ -241,11 +230,7 @@
     }
 
     .opening .image {
-        position: static;
-        width: 100%;
         scale: 0.8;
-        opacity: 1 !important;
-        z-index: 0;
     }
 
     .section-overview {
