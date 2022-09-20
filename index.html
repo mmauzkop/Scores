@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scores</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <link rel="icon" href="./img/Favicon.png" />
+    <link rel="apple-touch-icon" href="./img/Apple-Icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="./script.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body id="home">
+    <header class="header">
+        <a href="#home">
+            <img id="logo" src="./img/svg/Logo.svg" alt="Scores-Logo" aria-label="Scores-Logo"></a>
+        <nav class="nav-links">
+            <a class="nav-link" href="#research" aria-label="Research">Research</a>
+            <a class="nav-link" href="#design" aria-label="Design">Design</a>
+        </nav>
+        <a href="https://mmauzkop.github.io/Portfolio/" title="My Portfolio">
+            <svg class="portfolio-logo" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <path class="logo" fill-rule="evenodd" clip-rule="evenodd"
+                      d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM20 
+                 38C10.0589 38 2 29.9411 2 20C2 15.3899 3.73312 11.1845 6.58336 8C6.58336 8 7.33333 8 9 10.5C10 12 10 13 10 
+                 13V18V27H12.5V18C12.5 16.5 13.5 15 15.5 15C18 15 19 17 19 18V27H21.5V18C21.5 17 22 15 24.5 15C27 15 27.5 17 27.5 
+                 18V27C27.5 28.5 28 29.5 29.5 31C30.5 32 32 33.4166 32 33.4166C28.8155 36.2669 24.6101 38 20 38ZM38 20C38 10.0589 
+                 29.9411 2 20 2C15.3899 2 11.1845 3.73312 8 6.58336C8 6.58336 9.5 8 10.5 9C12 10.5 12.5 11.5 12.5 14C12.5 14 13.5 
+                 13 16 13C19.5 13 20.25 15 20.25 15C20.25 15 21 13 24.5 13C30 13 30 17 30 18V27C30 27 30 28 31 29.5C32.6667 32 33.4166 
+                 32 33.4166 32C36.2669 28.8155 38 24.6101 38 20Z" fill="var(--clr-accent)" />
+            </svg></a>
+    </header>
+    <section class="section section-opening">
+        <div class="opening">
+            <div class="column-text" data-aos="fade-right" data-aos-once="true">
+                <h1 class="heading">Buy more, Get more.</h1>
+                <p class="text">We are happy to present you a mobile app named: <strong>Scores</strong>.
+                    An app that will change anything you know about shopping experience.</p>
+                <a class="btn opening-button" href="#overview" role="button">So what is Scores?</a>
+            </div>
+            <img class="image" src="./img/sections/Hero.webp" alt="Shopping-Image"
+                 aria-label="Shopping-Image" data-aos="fade-left" data-aos-once="false">
+        </div>
+    </section>
+    <section class="section section-overview" id="overview" data-aos="fade" data-aos-once="true">
+        <div class="overview-grid">
+            <div class="grid-box">
+                <p class="title">Role</p>
+                <p class="details">E-Commerce</p>
+                <ion-icon name="cart"></ion-icon>
+            </div>
+            <div class="grid-blackbox" style="border-top-right-radius:var(--brds-L);">
+                <p class="title">Available For</p>
+                <p class="details">Mobile</p>
+                <ion-icon name="phone-portrait"></ion-icon>
+            </div>
+            <div class="grid-blackbox" style="border-bottom-left-radius:var(--brds-L);">
+                <p class="title">Business Model</p>
+                <p class="details">B2C</p>
+                <ion-icon name="people"></ion-icon>
+            </div>
+            <div class="grid-box">
+                <p class="title">Date of creation</p>
+                <p class="details">May 2020</p>
+                <ion-icon name="brush"></ion-icon>
+            </div>
+        </div>
+        <article class="overview-details">
+            <div class="flex">
+                <span class="index">01</span>
+                <h1 class="heading-primary">Overview</h1>
+            </div>
+            <div class="preview">So what is Scores?</div>
+            <p class="text">"<span class="underlined">Scores</span>" is a mobile
+                application with the concept of earning discounts by performing specific
+                tasks in a variety of stores.
+                Every month the tasks are renewed in all brands and stores.<br>
+                The tasks are generated randomly. When the customer completes a task, he will earns stars.
+                Stars are kind of tokens, With the Stars you can "purchase" discounts from a huge list of shops.</p>
+        </article>
+    </section>
+    <section class="section section-problem" id="problem">
+        <div class="flex">
+            <span class="index">02</span>
+            <h1 class="heading-primary">Main Problem</h1>
+        </div>
+        <div class="problem-grid">
+            <div>
+                <div class="preview">Why the app came?</div>
+                <p class="text"> Some people are not decisive when it comes to shopping
+                    and sometimes it can come at a high expenses on wasted things.
+                    <b class="underlined">People can be addicted to shopping</b>. most of the people are buying clothes
+                    or going out
+                    to restaurants. <b class="underlined">knowing that they spend a lot of money</b>.<br>
+                    "<span class="underlined">Scores</span>" comes to give a kind of gift through every purchase you
+                    make on the app and that solves
+                    the "frustration" problem from the big expenses.
+                </p>
+            </div>
+            <img class="image" src="./img/sections/Problem.webp" alt="ShoopyStarThinking"
+                 aria-label="ShoopyStarThinking">
+        </div>
+    </section>
+    <section class="section section-persona" id="persona">
+        <div class="persona">
+            <div class="flex">
+                <span class="index">03</span>
+                <h1 class="heading-primary">Persona</h1>
+            </div>
+            <div class="persona-details" data-aos="fade-right" data-aos-once="true">
+                <div>
+                    <p class="persona-name">Maria Weiss</p>
+                    <p class="text">Maria is 24 years old, a college student, She loves to go
+                        <span class="underlined">to shopping at the mall</span> with her girlfriends, She likes to buy
+                        clothes, especially
+                        in every year, She buys clothes and expensive things of new collections, to change her whole
+                        wardrobe. <span class="underlined">The problem is that she could spend money without
+                            knowing.</span>
+                        Maria is also a <span class="underlined">very competitive person.</span> She competes with
+                        anything that can
+                        get her prize, and she often registers herself to big competitions.
+                    <div class="persona-bullets">
+                        <p>&bullet; Love Shopping</p>
+                        <p>&bullet; Competitive</p>
+                        <p>&bullet; Young Age</p>
+                    </div>
+                </div>
+                <div class="persona-image" role="img" alt="MariaWeissPersona-Image"
+                     aria-label="MariaWeissPersona-Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <aside id="research">Research</aside>
+    <section class="section section-competitives" id="competitives" data-aos="fade">
+        <div class="flex">
+            <span class="index">04</span>
+            <h1 class="heading-primary">Competitives Research</h1>
+        </div>
+        <div class="competitor-one" data-aos="fade">
+            <div class="competitor-details">
+                <span class="competitor-number">#1</span>
+                <h2 class="heading-secondary">+Strauss</h2>
+                <p class="text">Belong to Strauss Group. the largest food products
+                    manufacturer in Israel. the app's concept is to take a picture of the receipt everytime at
+                    the end of shopping. and on every products of Strauss you buy. You will earn points, with them
+                    you can get gifts and discounts. There are some special products that worth more on each month.</p>
+                <div class="competitives-grid">
+                    <div>
+                        <p class="title underlined">Positive</p>
+                        <ul>
+                            <li><span>Has a lot of variations</span></li>
+                            <li><span>Has Recipes</span></li>
+                            <li><span>Reliable company</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="title underlined">Negative</p>
+                        <ul>
+                            <li><span>Only works with Strauss Products</span></li>
+                            <li><span>Works like a common app, boring</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img class="image" src="./img/sections/CompetitorOne.webp" alt="StraussApp-Image"
+                 aria-label="StraussApp-Image">
+        </div>
+        <div class="competitor-two" data-aos="fade">
+            <div class="competitor-details">
+                <span class="competitor-number">#2</span>
+                <h2 class="heading-secondary">yellow App</h2>
+                <p class="text">The concept is easy.
+                    every time you refill throught "yellow" gas station across the country. you will earn 10 pennies for
+                    every 1
+                    liter of fuel. You can get free coffee and ₪30 after you sign-in for the first time.
+                    The yellow company collaborates together with Super-Pharm pharmacies</p>
+                <div class="competitives-grid">
+                    <div>
+                        <p class="title underlined">Positive</p>
+                        <ul>
+                            <li><span>Customers Club</span></li>
+                            <li><span>Easy UX</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="title underlined">Negative</p>
+                        <ul>
+                            <li><span>Can't accumulate your money for a long time</span></li>
+                            <li><span>Works like a common app, boring</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <img class="image" src="./img/sections/CompetitorTwo.webp" alt="YellowApp-Image"
+                 aria-label="YellowApp-Image">
+        </div>
+        <div class="conclusion">
+            <div class="preview">So in conclusion..</div>
+            <h2 class="heading-secondary">Scores has:</h2>
+            <div class="conclusion-grid">
+                <div>
+                    <p class="title underlined">Positive</p>
+                    <ul>
+                        <li><span>Collaborating with a lot of companies and known brands</span></li>
+                        <li><span>Unusual experience: Competition</span></li>
+                        <li><span>Can getting refunds (But no money)</span></li>
+                        <li><span>Very Easy UX</span>
+                        <li><span>Very Accessible</span></li>
+                        <li><span>Profile Customization</span></li>
+                        <li><span>Durability: Heavy resistance against malwares & other scams</span></li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="title underlined">Negative</p>
+                    <ul>
+                        <li><span>There are no "Refund For Money" function,<br>
+                                (You can change only for other items)</span></li>
+                        <li><span>No open chat</span></li>
+                        <li><span>The process of shopping takes a long time</span></li>
+                        <li><span>Must have to be with a stable network</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-user" id="user" data-aos="fade" data-aos-once="true">
+        <div class="flex">
+            <span class="index">05</span>
+            <h1 class="heading-primary">User Research</h1>
+        </div>
+        <div class="users">
+            <div class="user">
+                <div class="user-details">
+                    <p class="user-name">Nofar<span class="profession">Theater Actress</span></p>
+                    <img class="image" src="./img/sections/UserAvatarOne.webp" alt="Anonymous Participant"
+                         aria-label="AnonymousParticipant">
+                </div>
+                <p class="text">The idea sounds pretty good, I like that you added an unusual activity in something
+                    we do frequently such as online shopping. It may sounds quite odd that people will rush to buy
+                    just to get rewards, but "Scores" app cares about the customers very well that it's important.
+                    The thing with the leaderboard competition is something special that is not may be found in some
+                    of the competitors.</p>
+            </div>
+            <div class="user">
+                <div class="user-details">
+                    <p class="user-name">Yoni<span class="profession">Graphic Designer</span></p>
+                    <img class="image" src="./img/sections/UserAvatarTwo.webp" alt="Anonymous Participant"
+                         aria-label="AnonymousParticipant">
+                </div>
+                <p class="text">It looks like a real product ready to launch! The leaderboard part,
+                    Sensational. Scores is taking care to the customers throught all the things you should
+                    espect to br focused. Keeping on Consistency. Accessibility and Durability against threats.
+                </p>
+            </div>
+        </div>
+        <div class="stats-details">
+            <p class="title">
+                According to statistical charts on the Calcalist website for 2020:</p>
+            <div class="stats-grid">
+                <div class="stat">
+                    <video class="stat-video" src="./img/videos/AnimationStatsOne.mp4" muted autoplay data-aos="fade"
+                           data-aos-once="true"></video>
+                    <p data-aos="fade-down" data-aos-duration="1000"
+                       data-aos-easing="ease-in-out" data-aos-once="true">
+                        <strong>58%</strong> of the Israel population spend money on Clothes through Online Shopping
+                    </p>
+                </div>
+                <div class="stat">
+                    <video class="stat-video" src="./img/videos/AnimationStatsTwo.mp4" muted autoplay data-aos="fade"
+                           data-aos-once="true"></video>
+                    <p data-aos="fade-down" data-aos-duration="1500"
+                       data-aos-delay="300" data-aos-easing="ease-in-out"
+                       data-aos-once="true">
+                        <strong>27%</strong> of the Israel population spend money on Hardwares and other
+                        stuffs thorugh Online Shopping
+                    </p>
+                </div>
+                <div class="stat">
+                    <video class="stat-video" src="./img/videos/AnimationStatsThree.mp4" muted autoplay data-aos="fade"
+                           data-aos-once="true"></video>
+                    <p data-aos="fade-down" data-aos-duration="2000"
+                       data-aos-delay="400" data-aos-easing="ease-in-out"
+                       data-aos-once="true">
+                        <strong>40%</strong> of the Israel population spend money on Cultural &
+                        Entertainment products and services through Online Shopping
+                    </p>
+                </div>
+            </div>
+            <p class="title"> What is the reason that Israelis buy through online?</p>
+            <div class="chart">
+                <img class="image" src="./img/sections/Chart.webp" alt="LargeChart"
+                     aria-label="LargeChart" data-aos="fade-right" data-aos-once="true">
+                <div class="chart-details" data-aos="fade-left" data-aos-once="true">
+                    <div class="chart-stat">
+                        <div class="color"></div>
+                        <p class="text">More comfortable</p>
+                    </div>
+                    <div class="chart-stat">
+                        <div class="color"></div>
+                        <p class="text">Cheap prices</p>
+                    </div>
+                    <div class="chart-stat">
+                        <div class="color"></div>
+                        <p class="text">Saving time</p>
+                    </div>
+                    <div class="chart-stat">
+                        <div class="color"></div>
+                        <p class="text">Can compare prices of products</p>
+                    </div>
+                    <div class="chart-stat">
+                        <div class="color"></div>
+                        <p class="text">More variety</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-taskflows" id="tasks">
+        <div class="taskflows">
+            <div class="flex">
+                <span class="index">06</span>
+                <h1 class="heading-primary">Taskflows</h1>
+                <p class="text">Mouseover the Taskflow and click to <span class="underlined">Zooming In</span></p>
+            </div>
+            <div class="taskflows-details">
+                <a class="taskflow-link" target="_blank" href="./img/sections/TaskflowOne.webp" data-aos="fade-right"
+                   data-aos-duration="800" data-aos-delay="50" data-aos-easing="ease-in" data-aos-once="true">
+                    <img class="image" src="./img/sections/TaskflowOne.webp"
+                         alt="BuyingProcessTaskflow-Image" aria-label="BuyingProcessTaskflow-Image"></a>
+                <p class="text-mobile">Click on the Taskflow to <span class="underlined">Zooming In</span></p>
+                <a class="taskflow-link" target="_blank" href="./img/sections/TaskflowTwo.webp" data-aos="fade-left"
+                   data-aos-duration="800" data-aos-delay="150" data-aos-easing="ease-in" data-aos-once="true">
+                    <img class="image" src="./img/sections/TaskflowTwo.webp"
+                         alt="GettingDiscountTaskflow-Image" aria-label="GettingDiscountProcessTaskflow-Image"></a>
+            </div>
+        </div>
+    </section>
+    <section class="section section-qanda" id="q&a">
+        <div class="flex">
+            <span class="index">07</span>
+            <h1 class="heading-primary">Questions & Answers</h1>
+        </div>
+        <div class="questions">
+            <div class="question">
+                <img class="avatar" src="./img/sections/AvatarOne.webp" role="img" alt="User-Avatar"
+                     aria-label="User-Avatar">
+                <p class="text" data-aos="fade-right" data-aos-once="true">
+                    Can people be addicted even more with that app? </p>
+            </div>
+            <div class="answer first">
+                <p class="text" data-aos="fade-left" data-aos-once="true">No. we sincerely take the disadvantages of
+                    addiction to shopping. And so we put pop-up notifications to warn the user from that.
+                    User can travels across the webs for 20 mins each day. In addition, <strong>Users cannot stay
+                        inside the shop's website for 2 mins without doing any actions.
+                        The system will kick the user out</strong></p>
+                <img class="shoopy" src="./img/sections/Shoppy.webp" role="img" alt="Shoppy-Avatar"
+                     aria-label="Shoppy-Avatar">
+            </div>
+            <div class="question">
+                <img class="avatar" src="./img/sections/AvatarTwo.webp" role="img" alt="User-Avatar"
+                     aria-label="User-Avatar">
+                <p class="text" data-aos="fade-right" data-aos-once="true">How the leaderboard works?</p>
+            </div>
+            <div class="answer second">
+                <p class="text" data-aos="fade-left" data-aos-once="true">The leaderboard is the best part.
+                    Each month, the users can win prizes. The chance to get the first place depends on
+                    how much the same user spends from his time to buy through the "Scores".
+                    <strong>Each week you are competing against 8 players to be the top place</strong>
+                    Every month the prizes are replaced with new others. And on
+                    Holidays and Special are the best chance to wins a great prize.
+                    <a class="link underlined" href="#leaderboard">See more</a>
+                </p>
+                <img class="shoopy" src="./img/sections/Shoppy.webp" role="img" alt="Shoppy-Avatar"
+                     aria-label="Shoppy-Avatar">
+            </div>
+            <div class="question">
+                <img class="avatar" src="./img/sections/AvatarThree.webp" role="img" alt="User-Avatar"
+                     aria-label="User-Avatar">
+                <p class="text" data-aos="fade-right" data-aos-once="true">We are talking about an app.
+                    that works with money. isn't too risky? Can I trust it?</p>
+            </div>
+            <div class="answer third">
+                <p class="text" data-aos="fade-left" data-aos-once="true" data-aos-delay="200">The profile integrate
+                    with your own
+                    <strong>Email/Google/Facebook or Amazon account.</strong> And any passwords are
+                    sended with an asymmetric encryption.
+                    Also "Scores" works and maintains wuth an highly security system against any malwares or
+                    malfunctions that can be distrupt our system.<strong>You don't need to worry.</strong>
+                </p>
+                <img class="shoopy" src="./img/sections/Shoppy.webp" role="img" alt="Shoppy-Avatar"
+                     aria-label="Shoppy-Avatar">
+            </div>
+        </div>
+    </section>
+    <section class="section section-lowframes" id="lowframes">
+        <div class="flex">
+            <span class="index">08</span>
+            <h1 class="heading-primary">Low-Fidelity Wireframes</h1>
+        </div>
+        <div class="lowframes">
+            <img class="image" src="./img/sections/Low-Fidelity Wireframes.webp" role="img"
+                 alt="Low-Fidelity Wireframes"
+                 aria-label="Low-Fidelity Wireframes">
+            <div class="details">
+                <p class="text">
+                    The Low-Fidelity Wireframe sketches take a lot of time to being completed. And sometimes I wondered
+                    if
+                    maybe I would show on the homepage some different stores that advertise themselves, or actually
+                    shows
+                    the instructions about the app. I decided to put both. Because the home page is very critical for
+                    users
+                    and it changes the interface experience to the customer. The sketches shown are here.
+                    are the most the most important and common ones viewed in the app.</p>
+                <a class="btn lowframes-button" href="#wireframes" role="button">Check Mid-Fidelity Wireframes</a>
+            </div>
+        </div>
+    </section>
+    <aside id="design">Design</aside>
+    <section class="section section-leaderboard" id="leaderboard">
+        <div class="leaderboard" data-aos="fade" data-aos-once="true">
+            <div class="details">
+                <div class="title">
+                    <svg class="image" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.6667 7.33333H15.3333V6.66667C15.3333 6.3 15.0333 6 14.6667 6H9.33333C8.96667 6 8.66667 6.3 8.66667 
+                        6.66667V7.33333H7.33333C6.6 7.33333 6 7.93333 6 8.66667V9.33333C6 11.0333 7.28 12.42 8.92667 12.6267C9.34667 
+                        13.6267 10.2467 14.38 11.3333 14.6V16.6667H9.33333C8.96667 16.6667 8.66667 16.9667 8.66667 17.3333C8.66667 17.7 
+                        8.96667 18 9.33333 18H14.6667C15.0333 18 15.3333 17.7 15.3333 17.3333C15.3333 16.9667 15.0333 16.6667 14.6667 
+                        16.6667H12.6667V14.6C13.7533 14.38 14.6533 13.6267 15.0733 12.6267C16.72 12.42 18 11.0333 18 9.33333V8.66667C18 
+                        7.93333 17.4 7.33333 16.6667 7.33333ZM7.33333 9.33333V8.66667H8.66667V11.2133C7.89333 10.9333 7.33333 10.2 
+                        7.33333 9.33333ZM16.6667 9.33333C16.6667 10.2 16.1067 10.9333 15.3333 11.2133V8.66667H16.6667V9.33333Z"
+                              fill="var(--clr-secondary)" />
+                    </svg>
+                    <h2 class="heading-secondary">Leaderboard</h2>
+                </div>
+                <p class="text">In Scores, there is a chance to get some prizes by winning the Leaderboard
+                    each month. The user competes against 8 random users, they compete on who's the user that
+                    spends the most time on Scores. The Leaderboard prizes is refreshed on the beginning of each month.
+                </p>
+            </div>
+            <div class="video">
+                <video src="./img/videos/Leaderboard.mp4" muted loop poster autoplay></video>
+                <div class="overlap" role="img" aria-label="Leaderboard-Icon"></div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-histories" id="histories">
+        <div class="histories" data-aos="fade" data-aos-once="true">
+            <div class="details">
+                <div class="title">
+                    <svg class="image" width="24" height="24" viewBox="0 0 24 24"
+                         fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.8993 6.00233C9.63894 5.90901 6.96784 8.63515 6.96784 12.0012H5.82126C5.53301 12.0012 5.39209 
+                        12.3611 5.59707 12.5677L7.3842 14.434C7.51231 14.5673 7.71088 14.5673 7.83899 14.434L9.62613 12.5677C9.8247 
+                        12.3611 9.68378 12.0012 9.39553 12.0012H8.24895C8.24895 9.40167 10.2859 7.30207 12.7969 7.3354C15.1797 7.36873 
+                        17.1846 9.45499 17.2167 11.9345C17.2487 14.5407 15.231 16.6669 12.7328 16.6669C11.7015 16.6669 10.7471 16.3003 
+                        9.99125 15.6805C9.73503 15.4738 9.37632 15.4938 9.14572 15.7338C8.87669 16.0137 8.8959 16.487 9.19696 
+                        16.7269C10.1706 17.5268 11.3941 18 12.7328 18C15.9676 18 18.5874 15.2205 18.4978 11.8279C18.4145 8.7018 15.9035 
+                        6.08898 12.8993 6.00233ZM12.5727 9.33501C12.31 9.33501 12.0923 9.56164 12.0923 9.83492V12.2878C12.0923 12.5211 
+                        12.214 12.741 12.4061 12.861L14.4046 14.0941C14.6352 14.2341 14.9299 14.1541 15.0644 13.9208C15.1989 13.6808 
+                        15.1221 13.3742 14.8979 13.2343L13.0531 12.0945V9.82825C13.0531 9.56164 12.8353 9.33501 12.5727 9.33501Z"
+                              fill="var(--clr-secondary)" />
+                    </svg>
+                    <h2 class="heading-secondary">Histories</h2>
+                </div>
+                <p class="text">The "Histories" is a very useful tool in Scores. You can see all the actions you have
+                    made since you signed up for the app. The Histories are divided into 3 categories.
+                    The category of Last actions: where you can see the last 8 actions you did.
+                    The category of Incomes. where you can see all the "Shop" actions you have made.
+                    And The category of Expenses, where you can see all the "Gifts" actions you have made.
+                </p>
+            </div>
+            <div class="video">
+                <video src="./img/videos/Histories.mp4" muted loop poster autoplay></video>
+                <div class="overlap" role="img" aria-label="Histories-Icon"></div>
+            </div>
+    </section>
+    <section class="section section-guides" id="guides">
+        <div class="flex">
+            <span class="index">09</span>
+            <h1 class="heading-primary">Style Guides</h1>
+        </div>
+        <div class="typography" data-aos="fade-right" data-aos-once="true">
+            <p class="title">Typography</p>
+            <p class="font-name">Nunito</p>
+            <p class="lorem-ipsum">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id velit rem in
+                commodi aliquam alias tenetur. Cumque accusamus sint reprehenderit modi laudantium sit,
+                fugit natus voluptate officiis voluptatum. Perspiciatis, itaque.</p>
+        </div>
+        <div class="colors" data-aos="fade-right" data-aos-delay="100" data-aos-once="true">
+            <p class="title">Colors</p>
+            <div class="palette">
+                <div class="color">
+                    <span>Primary</span>
+                    <p>#FFBE19</p>
+                </div>
+                <div class="color">
+                    <span>Secondary</span>
+                    <p>#FF7819</p>
+                </div>
+                <div class="color">
+                    <span>Accent</span>
+                    <p>#232328</p>
+                </div>
+                <div class="color">
+                    <span>Black</span>
+                    <p>#141414</p>
+                </div>
+                <div class="color">
+                    <span>White</span>
+                    <p>#FAFAFA</p>
+                </div>
+            </div>
+        </div>
+        <div class="icons" data-aos="fade-right" data-aos-delay="150" data-aos-once="true">
+            <p class="title">Icons</p>
+            <p class="icons-style">Materials Designs Icons</p>
+            <p class="text">Material Design, Filled Icons, Rounded Icons</p>
+        </div>
+    </section>
+    <section class="section section-wireframes" id="wireframes">
+        <div class="flex">
+            <span class="index">10</span>
+            <h1 class="heading-primary">Mid-Fidelity Wireframes</h1>
+        </div>
+        <div class="wireframes-details">
+            <ul class="wireframes">
+                <li class="wireframe wire-home current-wireframe"><span class="bullet"></span>Homepage</li>
+                <li class="wireframe wire-menu"><span class="bullet"></span>Menu</li>
+                <li class="wireframe wire-shop"><span class="bullet"></span>Shop</li>
+                <li class="wireframe wire-board"><span class="bullet"></span>Leaderboard</li>
+            </ul>
+            <a class="link" target="_blank" href="./img/sections/Wireframe - Homepage.webp" role="button">
+                <img class="image image-home current-image" src="./img/sections/Wireframe - Homepage.webp" role="img"
+                     alt="Wireframe-Menu" aria-label="WireframeImage-Menu"></a>
+            <a class="link" target="_blank" href="./img/sections/Wireframe - Menu.webp" role="button">
+                <img class="image image-menu" src="./img/sections/Wireframe - Menu.webp" role="img"
+                     alt="Wireframe-Menu" aria-label="WireframeImage-Menu"></a>
+            <a class="link" target="_blank" href="./img/sections/Wireframe - Shop.webp" role="button">
+                <img class="image image-shop" src="./img/sections/Wireframe - Shop.webp" role="img"
+                     alt="Wireframe-Shop" aria-label="WireframeImage-Shop"></a>
+            <a class="link" target="_blank" href="./img/sections/Wireframe - Leaderboard.webp" role="button">
+                <img class="image image-board" src="./img/sections/Wireframe - Leaderboard.webp" role="img"
+                     alt="Wireframe-Leaderboard" aria-label="WireframeImage-Leaderboard"></a>
+        </div>
+    </section>
+    <section class="section section-prototypes" id="prototypes">
+        <div class="prototypes">
+            <div class="flex">
+                <span class="index">11</span>
+                <h1 class="heading-primary">Prototypes</h1>
+            </div>
+            <div class="details">
+                <div class="prototype" data-aos="fade" data-aos-once="true">
+                    <a class="link" target="_blank" href="./img/sections/Homepage.webp" role="button">
+                        <img class="image" src="./img/sections/Homepage.webp" role="img"
+                             alt="Homepage-Screen" aria-label="Homepage-Image"></a>
+                    <p class="text">Homepage</p>
+                </div>
+                <div class="prototype" data-aos="fade" data-aos-delay="300" data-aos-once="true">
+                    <a class="link" target="_blank" href="./img/sections/Menu.webp" role="button">
+                        <img class="image" src="./img/sections/Menu.webp" role="img"
+                             alt="Menu-Screen" aria-label="Menu-Image"></a>
+                    <p class="text">Menu</p>
+                </div>
+                <div class="prototype" data-aos="fade" data-aos-delay="500" data-aos-once="true">
+                    <a class="link" target="_blank" href="./img/sections/Shop.webp" role="button">
+                        <img class="image" src="./img/sections/Shop.webp" role="img"
+                             alt="Shop-Screen" aria-label="Shop-Image"></a>
+                    <p class="text">Shop</p>
+                </div>
+                <div class="prototype" data-aos="fade" data-aos-delay="700" data-aos-once="true">
+                    <a class="link" target="_blank" href="./img/sections/Leaderboard.webp">
+                        <img class="image" src="./img/sections/Leaderboard.webp" role="img"
+                             alt="Leaderboard-Screen" aria-label="Leaderboard-Image"></a>
+                    <p class="text">Leaderboard</p>
+                </div>
+            </div>
+            <div class="ending">
+                <p class="text">Thanks for watching.<br> Now you can see the prototypes or the final project,
+                    Choose what you want freely.
+                </p>
+                <div class="btns">
+                    <button class="btn btn-prototype" type="button"
+                            onclick="location.assign('https://www.figma.com/file/j2V5NPRcbYF9SaJ3vQ4YkI/Scores-Project')">
+                        View All Prototypes</button>
+                    <button class="btn btn-project" type="button"
+                            onclick="location.assign('https://www.figma.com/proto/j2V5NPRcbYF9SaJ3vQ4YkI/Scores-Project?node-id=0%3A1')">
+                        View Project</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-footer">
+        <footer>
+            <div class="details">
+                <a href="#"><img class="logo" src="./img/svg/LogoWh.svg" alt="Scores-Logo" aria-label="Scores-Logo"></a>
+                <ul class="contact-list">
+                    <li><a class="contact-btn" href="https://www.linkedin.com/in/moshe-mauzkop-a627a11b7"
+                           target="_blank" role="link" rel="noreferrer" title="LinkedIn" aria-label="LinkedIn">
+                            <svg class="contact-icon" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 39.9992H1.06283e-09V13H9V39.9992ZM40 40H32V27C32 23.5 31 20 27 20C23 20 22 23.5 22 
+                                27V39.9992H14V13H22V17C23 15 25 13 30 13C38 13 40 18 40 25V40Z" fill="#fafafacc">
+                                </path>
+                                <path d="M2.01771 8.25342C2.76008 8.74438 3.63137 9.00418 4.52139 8.99995C5.71345 8.98992 6.8532 8.50903 
+                                7.69216 7.66212C8.53111 6.81522 9.00123 5.67098 9 4.47888C8.99581 3.58887 8.72781 2.72008 8.22986 
+                                1.98238C7.73192 1.24468 7.0264 0.671208 6.20252 0.334485C5.37865 -0.00223964 4.47342 -0.087093 3.60132 
+                                0.0906552C2.72921 0.268403 1.92941 0.70077 1.30304 1.33308C0.676674 1.96538 0.251876 2.76923 0.0823681 
+                                3.64297C-0.0871398 4.5167 0.00625598 5.42108 0.350745 6.24173C0.695234 7.0624 1.27534 7.76247 2.01771 
+                                8.25342Z" fill="var(--clr-white)"></path>
+                            </svg></a></li>
+                    <li><a class="contact-btn" href="https://dribbble.com/mmauzkop" target="_blank" role="link"
+                           rel="noreferrer" title="Dribbble" aria-label="Dribbble">
+                            <svg class="contact-icon" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20 0C8.95833 0 0 8.95833 0 20C0 31.0417 8.95833 40 20 
+                                40C31.02 40 40 31.0417 40 20C40 8.95833 31.02 0 20 0ZM33.21 9.21833C35.6725 12.2172 37.0351 15.9682 
+                                37.0717 19.8483C36.5083 19.74 30.8683 18.59 25.185 19.3067C25.0533 19.0233 24.945 18.72 24.815 
+                                18.4167C24.4615 17.5823 24.0858 16.7576 23.6883 15.9433C29.9783 13.3833 32.8417 9.69667 33.21 
+                                9.21833V9.21833ZM20 2.95167C24.3383 2.95167 28.3083 4.57667 31.3233 7.245C31.02 7.67833 28.4383 11.1283
+                                22.365 13.405C19.565 8.265 16.465 4.055 15.9867 3.405C17.3022 3.09781 18.6491 2.94512 20 
+                                2.95V2.95167ZM12.7333 4.555C13.1883 5.16333 16.225 9.39333 19.0667 14.425C11.0833 16.5517 4.03333 
+                                16.5083 3.275 16.5083C4.38167 11.215 7.96167 6.81167 12.7333 4.555ZM2.90667 20.0217V19.5017C3.645 
+                                19.5233 11.93 19.6317 20.4567 17.0717C20.955 18.0267 21.41 19.0017 21.8433 19.9783C21.6267 20.0433 
+                                21.3883 20.1083 21.1717 20.1733C12.365 23.015 7.67833 30.78 7.28833 31.4317C4.46735 28.3009 2.90633 
+                                24.2359 2.90667 20.0217V20.0217ZM20 37.0933C16.2034 37.0993 12.5144 35.8317 9.52333 33.4933C9.82667 
+                                32.8633 13.2967 26.1817 22.9283 22.82C22.9717 22.7983 22.995 22.7983 23.0367 22.7767C25.445 29.0017 
+                                26.42 34.23 26.6817 35.7267C24.62 36.6167 22.365 37.0933 20 37.0933ZM29.5233 34.165C29.35 33.1233 
+                                28.4383 28.135 26.2033 21.995C31.5617 21.15 36.2467 22.5383 36.8333 22.7333C36.095 27.4833 33.3617 
+                                31.5833 29.5233 34.165Z" fill="var(--clr-white)"></path>
+                            </svg></a></li>
+                    <li><a class="contact-btn" href="https://github.com/mmauzkop" target="_blank" role="link"
+                           rel="noreferrer" title="Github" aria-label="Github">
+                            <svg class="contact-icon" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M20 0C8.95 0 0 9.17638 0 20.5059C0 29.5797 5.725 37.2438 
+                                13.675 39.9608C14.675 40.1403 15.05 39.5251 15.05 38.9868C15.05 38.4998 15.025 36.8849 15.025 35.1676C10 
+                                36.116 8.7 33.9116 8.3 32.7581C8.075 32.1686 7.1 30.3487 6.25 29.8617C5.55 29.4772 4.55 28.5288 6.225 
+                                28.5032C7.8 28.4775 8.925 29.9898 9.3 30.605C11.1 33.7065 13.975 32.835 15.125 32.2968C15.3 30.9639 
+                                15.825 30.0667 16.4 29.5541C11.95 29.0414 7.3 27.2728 7.3 19.4293C7.3 17.1993 8.075 15.3538 9.35 
+                                13.9184C9.15 13.4057 8.45 11.3039 9.55 8.48431C9.55 8.48431 11.225 7.94603 15.05 10.5862C16.65 10.1248 
+                                18.35 9.89408 20.05 9.89408C21.75 9.89408 23.45 10.1248 25.05 10.5862C28.875 7.9204 30.55 8.48431 30.55 
+                                8.48431C31.65 11.3039 30.95 13.4057 30.75 13.9184C32.025 15.3538 32.8 17.1737 32.8 19.4293C32.8 27.2984 
+                                28.125 29.0414 23.675 29.5541C24.4 30.1949 25.025 31.4253 25.025 33.3477C25.025 36.0903 25 38.2947 25 
+                                38.9868C25 39.5251 25.375 40.1659 26.375 39.9608C30.3453 38.5865 33.7953 35.9702 36.2394 32.4802C38.6836 
+                                28.9903 39.9988 24.8023 40 20.5059C40 9.17638 31.05 0 20 0Z" fill="var(--clr-white)">
+                                </path>
+                            </svg></a></li>
+                </ul>
+                <ul class="portfolio-projects">
+                    <li><a class="projects-btn" href="https://mmauzkop.github.io/Portfolio/" title="My Portfolio">
+                            <svg class="project-icon" width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 
+                                      8.9543 40 20 40ZM20 38C10.0589 38 2 29.9411 2 20C2 15.3899 3.73312 11.1845 6.58336 8C6.58336 8 
+                                      7.33333 8 9 10.5C10 12 10 13 10 13V18V27H12.5V18C12.5 16.5 13.5 15 15.5 15C18 15 19 17 19 
+                                      18V27H21.5V18C21.5 17 22 15 24.5 15C27 15 27.5 17 27.5 18V27C27.5 28.5 28 29.5 29.5 31C30.5 32 32 
+                                      33.4166 32 33.4166C28.8155 36.2669 24.6101 38 20 38ZM38 20C38 10.0589 29.9411 2 20 2C15.3899 2 
+                                      11.1845 3.73312 8 6.58336C8 6.58336 9.5 8 10.5 9C12 10.5 12.5 11.5 12.5 14C12.5 14 13.5 13 16 
+                                      13C19.5 13 20.25 15 20.25 15C20.25 15 21 13 24.5 13C30 13 30 17 30 18V27C30 27 30 28 31 
+                                      29.5C32.6667 32 33.4166 32 33.4166 32C36.2669 28.8155 38 24.6101 38 20Z"
+                                      fill="var(--clr-white)" />
+                            </svg></a></li>
+                    <li><a class="projects-btn" href="https://mmauzkop.github.io/Median/" title="Median">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 3.05013V2.00009H5.92593L28.1481 35.5417V37H22.2222L0 3.05013ZM0 6.37508L5.92593 
+                                15.125V37H0V6.37508Z" fill="var(--clr-white)" />
+                                <path d="M34.0741 14.3958L40 6.37508V37H34.0741V14.3958Z" fill="var(--clr-white)" />
+                                <path d="M40 3.04995V2H34.0741L20 19.5L23.7037 25.3333L40 3.04995Z"
+                                      fill="var(--clr-white)" />
+                            </svg></a></li>
+                </ul>
+                <p class="copyright">Copyright © 2021. Moshe Maukzop</p>
+            </div>
+            <div class="links">
+                <div class="define-links">
+                    <span class="title">Define</span>
+                    <ul class="list">
+                        <li><a class="link" href="#overview">Overview</a></li>
+                        <li><a class="link" href="#problem">Main Problem</a></li>
+                        <li><a class="link" href="#persona">Persona</a></li>
+                    </ul>
+                </div>
+                <div class="research-links">
+                    <span class="title">Research</span>
+                    <ul class="list">
+                        <li><a class="link" href="#competitives">Competitives Research</a></li>
+                        <li><a class="link" href="#user">User Research</a></li>
+                        <li><a class="link" href="#tasks">Taskflows</a></li>
+                        <li><a class="link" href="#q&a">Questions & Answers</a></li>
+                        <li><a class="link" href="#lowframes">Low-Fidelity Wireframes</a></li>
+                    </ul>
+                </div>
+                <div class="design-links">
+                    <span class="title">Design</span>
+                    <ul class="list">
+                        <li><a class="link" href="#leaderboard">Leaderboard</a></li>
+                        <li><a class="link" href="#histories">Histories</a></li>
+                        <li><a class="link" href="#guides">Style Guides</a></li>
+                        <li><a class="link" href="#wireframes">Mid-Fidelity Wireframes</a></li>
+                        <li><a class="link" href="#prototypes">Prototypes</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+<script>
+    AOS.init({
+        easing: "ease-in",
+        duration: 500
+    });
+
+</script>
+
+</html>
